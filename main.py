@@ -5,8 +5,8 @@ import time
 
 MY_LAT = 37.762650 
 MY_LONG = 30.55370
-MY_MAİL="testmailbygk@gmail.com"
-MY_PASSWORD="jwcxnngkpujkawxe"
+MY_MAİL="yourmail"
+MY_PASSWORD="yourpass"
 
 
 def is_iss_overhead():
@@ -48,5 +48,5 @@ while True:
             connection.login(user=MY_MAİL, password=MY_PASSWORD)
             connection.sendmail(
                 from_addr=MY_MAİL, 
-                to_addrs="gulistankmas@gmail.com",
+                to_addrs="mail",
                 msg=f"Subject:Look up iss is here!\n\nSay hi and wave bye,its here to see you")
